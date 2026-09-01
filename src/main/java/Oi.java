@@ -1,5 +1,5 @@
 public class Oi {
-    static void main() {
-        System.out.println();
+    static void main(String [] args) {
+        System.out.println("Oi");
     }
 }
