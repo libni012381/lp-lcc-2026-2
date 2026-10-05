@@ -1,0 +1,34 @@
+package beecrowd;
+import java.util.Scanner;
+public class MilCentoeCinquentaeUm {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+
+        int a = 0;
+        int b = 1;
+
+        if (46>N&& N>0) {
+
+            for (int i = 0; i < N; i++) {
+
+                if (i > 0) {
+                    System.out.print(" ");
+                }
+
+                System.out.print(a);
+
+                int proximo = a + b;
+
+                a = b;
+                b = proximo;
+            }
+        }
+            System.out.println();
+
+            sc.close();
+        }
+    }
