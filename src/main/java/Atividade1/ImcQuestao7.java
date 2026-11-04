@@ -1,6 +1,6 @@
 package Atividade1;
 import javax.swing.JOptionPane;
-public class ImcQuestao7 {
+public class  ImcQuestao7 {
     public static void main(String []args){
         String pesostr = JOptionPane.showInputDialog("Qual o seu peso?");
         double peso = Double.parseDouble(pesostr);
