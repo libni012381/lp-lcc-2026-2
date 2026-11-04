@@ -33,6 +33,6 @@ public class Aluno {
     public Aluno(String nome, int idade, String curso){
         this.nome= nome;
         this.idade=idade;
-        t
+
     }
 }
