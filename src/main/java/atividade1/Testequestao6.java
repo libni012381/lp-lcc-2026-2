@@ -1,4 +1,4 @@
-package Atividade1;
+package atividade1;
 
 import javax.swing.JOptionPane;
 public class Testequestao6 {
