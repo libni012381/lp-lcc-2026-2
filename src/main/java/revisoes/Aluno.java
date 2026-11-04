@@ -11,7 +11,7 @@ Crie uma classe chamada Aluno com os seguintes atributos:
 1.2 – Criando um construtor
 
 Crie um construtor para a classe Aluno que receba os três atributos como parâmetros e inicialize todos eles.
-
+[FEITO]
 1.3 – Criando objetos
 
 Na classe principal, crie três objetos da classe Aluno usando new.
@@ -33,6 +33,16 @@ public class Aluno {
     public Aluno(String nome, int idade, String curso){
         this.nome= nome;
         this.idade=idade;
-
+        this.curso=curso;
     }
+public static void main(String [] args){
+        Aluno aluno1 = new Aluno("João",20,"Computação");
+        Aluno aluno2 = new Aluno("Maria",19,"Matemática");
+        Aluno aluno3 = new Aluno("Pedro",22,"Física");
+
+
+}
+
+
+
 }
